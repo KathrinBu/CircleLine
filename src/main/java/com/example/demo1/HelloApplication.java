@@ -28,7 +28,7 @@ public class HelloApplication extends Application {
     public void start(Stage stage) throws Exception {
         Line line = new Line(0,0,100,100);
         line.setStroke(Color.GREEN);
-        Ellipse ellipse = new Ellipse(0,0,100,100);
+        Ellipse ellipse = new Ellipse(70,50,200,100);
         ellipse.setFill(Color.BLUE);
         Text text = new Text(100,100,"===");
         text.setFont(Font.font(50));
